@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7ADB2079-6BAB-4AFD-D7B5-0137AEA23015" name="alumnos">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:54:54 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="0EF15DC5-3FC6-CE5D-08F0-D3E88C3A5818">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:55:42 UTC</createdTime>
+<generatorID>EE22AE07-BA1F-5534-F3C8-FBE8DFE1F247</generatorID>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<referedAttribute>699C4225-C379-B3A1-403D-9DD691A19C24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="1F417F22-A0F1-784E-2BD1-4E960C366BFE">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:56:00 UTC</createdTime>
+<generatorID>01C83A61-9C52-D2A9-330A-F3EF131A9726</generatorID>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<referedAttribute>21981D22-A4E6-75EA-ACE9-A9DBD7805DA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota_def" id="8BF0C20D-05E4-BF42-731B-B47A58499321">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:58:18 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1ADAD92-7EAA-DBA0-B7EB-73AD90BAF856" name="alumnos PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:55:26 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F417F22-A0F1-784E-2BD1-4E960C366BFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

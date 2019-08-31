@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9862A395-425C-136D-FC69-3A42561D5746" name="cursos_cap">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:48:56 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod" id="B59F1453-852E-2B5F-90D4-E0B8EA76A653">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:49:20 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destall" id="AD7B67A6-658A-F7A9-7633-ADD61CEECFD9">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:49:31 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="96E6EED9-92EE-9A86-ABBE-6BF8064C927A">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:53:35 UTC</createdTime>
+<generatorID>27C9E3D0-36F1-6795-158D-7737BECA74A6</generatorID>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>699C4225-C379-B3A1-403D-9DD691A19C24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E32DF5A-7055-1B66-AC22-F6A8DC045B92" name="cursos_cap PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2019-08-31 15:49:29 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="09549A7B-4A69-B17B-3602-F5C7F668D4D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B59F1453-852E-2B5F-90D4-E0B8EA76A653</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
